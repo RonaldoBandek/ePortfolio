@@ -5,9 +5,265 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ronaldo Bandek</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container"></div>
+    <header>
+      <div class="logo">
+        <img src="img/myLogo.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am<strong>Ronaldo Bandek</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        front-end developer
+      </p>
+      <img
+        src="img/IMG-1622.jpg"
+        alt="Ronaldo at Grand Canyyon"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My services -->
+
+    <section class="my-servies" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel minima
+            reprehenderit facere! Et iusto voluptatum itaque! Dignissimos est
+            harum quis maxime repellat laborum minima vel, vitae asperiores quam
+            ipsum dicta.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>E-Commerce</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            perferendis et, omnis distinctio esse, quam aliquid tempora ad
+            doloremque sunt reiciendis culpa porro aut numquam officia cum
+            veritatis voluptatibus velit.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>WordPress</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            dignissimos sit minus nulla magnam aspernatur repudiandae officia
+            harum modi, alias velit possimus amet, vero odio non illum
+            blanditiis mollitia doloremque!
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Designer & developer based out of Las Vegas
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          commodi provident corrupti rerum, distinctio ipsa quisquam tenetur
+          nihil laudantium omnis nesciunt mollitia quos reprehenderit. Ullam
+          mollitia beatae quidem voluptate debitis.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          quasi aliquid voluptatem, quisquam repudiandae quaerat voluptas sunt
+          similique, animi ea repellat consequuntur dignissimos harum adipisci,
+          nemo rem maxime eligendi quam!
+        </p>
+      </div>
+
+      <img
+        src="img/IMG-1655 (3).PNG"
+        alt="Ronaldo at Puerto Peñasco, Mexico"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/portfolio-01.jpg"
+            alt="portfolio__img"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/portfolio-02.jpg"
+            alt="portfolio__img"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/portfolio-03.jpg"
+            alt="portfolio__img"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 04 -->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/portfolio-04.jpg"
+            alt="portfolio__img"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 05 -->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/portfolio-05.jpg"
+            alt="portfolio__img"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 06 -->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/portfolio-06.jpg"
+            alt="portfolio__img"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 07 -->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/portfolio-07.jpg"
+            alt="portfolio__img"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 08 -->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/portfolio-08.jpg"
+            alt="portfolio__img"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 09 -->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/portfolio-09.jpg"
+            alt="portfolio__img"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 10 -->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/portfolio-10.jpg"
+            alt="portfolio__img"
+            class="portfolio__img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:ronaldobandek@gmail.com" class="footer__link"
+        >ronaldobandek@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="https://codepen.io" class="social-list__link"
+            ><i class="fab fa-codepen"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="http://dribbble.com" class="social-list__link"
+            ><i class="fab fa-dribbble"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://twitter.com" class="social-list__link"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://github.com" class="social-list__link"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
